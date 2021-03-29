@@ -152,7 +152,7 @@ You're paranoid, you don't trust the internet in this country anymore, and you w
 
 ### What a VPN is, and what it isn't
 
-I'll start with the elephant in the room: a VPN is not a magic tool to make you super anonymous on the internet. It really isn't. To get to the bottom of this, I *highly* recommend reading this fantastic excerpt on why VPN providers are a bad choice and when a VPN might be useful: [joepie91/vpn.md](joepie91/vpn.md)
+I'll start with the elephant in the room: a VPN is not a magic tool to make you super anonymous on the internet. It really isn't. To get to the bottom of this, I *highly* recommend reading this fantastic excerpt on why VPN providers are a bad choice and when a VPN might be useful: [joepie91/vpn.md](https://gist.github.com/joepie91/5a9909939e6ce7d09e29)
 
 ### You still want a VPN? Fine.
 
