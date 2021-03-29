@@ -183,15 +183,16 @@ Step 1: Provision a virtual server. Choose any Linux operating system you like a
 
 Step 2: Connect to the server via SSH.
 
-Step 3: This is an example for Debian-based systems like Ubuntu and, well, Debian. Run these commands to update your system and install some basic tools we will need.
-`sudo apt update && sudo apt upgrade`
+Step 3: This is an example for Debian-based systems like Ubuntu and, well, Debian. Run these commands to update your system and install some basic tools we will need.  
+`sudo apt update && sudo apt upgrade`  
 `sudo apt install curl wget speedtest-cli vnstat`
 
 Step 4: Once that is finished, execute ``speedtest-cli`` and look at the values. Since the server is located in a datacenter, the values should *exceed* the internet speed you're getting. This is what you want. If that's not the case, try it again after rebooting the VM. If you still get sub-par speeds, take advantage of that money back guarantee.
 
 Step 5: Execute the great OpenVPN install script by angristan. Instructions over there: [angristan/openvpn-install](angristan/openvpn-install)
 
-Step 6: Edit the OpenVPN server configuration file and change ``verb 3`` to ``verb 0``. This disables all logging on the server: ``sudo nano /etc/openvpn/server.conf``
+Step 6: Edit the OpenVPN server configuration file and change ``verb 3`` to ``verb 0``. This disables all logging on the server:  
+``sudo nano /etc/openvpn/server.conf``
 
 Step 7: Restart the OpenVPN service: ``sudo systemctl restart openvpn@server``
 
