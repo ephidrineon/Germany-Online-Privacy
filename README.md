@@ -94,7 +94,7 @@ It depends on how you want to use it. The most elaborate way to making sure your
 
 I personally use Unbound on OpenWrt and have all DNS traffic forwarded via TLS to dns.google. However, you can do as you please. Here are some great guides to setting up a centralized DNS solution for your home:
 
-How to set up Pi-Hole with Unbound: [anudeepND/pihole-unbound](anudeepND/pihole-unbound)
+How to set up Pi-Hole with Unbound: [anudeepND/pihole-unbound](anudeepND/pihole-unbound)  
 How to configure Unbound to use DoT: [Configuring unbound as DNS resolver with DNS-over-TLS and DNSSEC](https://blog.cyclemap.link/2020-01-11-unbound/)
 
 However, you do not need to dive that deep to get reasonably secure name resolution. There are way simpler options to set up DoH or DoT on your device itself.
@@ -117,7 +117,7 @@ On Windows 10, you can set up DNS over HTTPS somewhat easily. In the newer insid
 
 Step 1: Right-click your start button and click "Windows PowerShell (Admin)"
 
-Step 2: Enter this command. What this does is add a registry value that lets Windows know that yes, we really want to use this feature.
+Step 2: Enter this command. What this does is add a registry value that lets Windows know that yes, we really want to use this feature.  
 ``reg add HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters /v EnableAutoDoh /t REG_DWORD /d 2``
 
 Step 3: Reboot your PC.
